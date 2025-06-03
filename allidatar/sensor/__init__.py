@@ -1,1 +1,1 @@
-from .sensor import Sensor
+from .sensor import Sensor, sensor_main
