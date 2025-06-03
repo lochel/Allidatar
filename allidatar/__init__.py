@@ -1,4 +1,4 @@
-from allidatar.version import *
-
-def hello(name: str = "World") -> str:
-  return f"Hello, {name}!"
+from .client import Client
+from .sensor import Sensor
+from .server import Server
+from .version import *
