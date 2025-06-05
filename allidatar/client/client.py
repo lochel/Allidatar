@@ -60,7 +60,7 @@ class Client:
     print("Stopping client.")
 
 
-if __name__ == '__main__':
+def main():
   update_and_restart()
   try:
     master()

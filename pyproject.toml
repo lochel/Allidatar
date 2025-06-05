@@ -27,3 +27,7 @@ dev = ["pytest"]
 [project.urls]
 "Homepage" = "https://github.com/lochel/Allidatar"
 "Bug Tracker" = "https://github.com/lochel/Allidatar/issues"
+
+[project.scripts]
+allidatar-client = "allidatar.client:main"
+allidatar-server = "allidatar.server:main"
