@@ -1,7 +1,6 @@
 from multiprocessing import Pipe, Process, connection
 
-from allidatar.sensor import sensor_main
-
+from .sensor import sensor_main
 from .upgrade import update_and_restart
 
 sensor_processes = {}
